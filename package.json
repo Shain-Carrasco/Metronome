@@ -1,0 +1,43 @@
+{
+  "name": "metronome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shain-Carrasco/Metronome.git"
+  },
+  "author": "Shain Carrasco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shain-Carrasco/Metronome/issues"
+  },
+  "homepage": "https://github.com/Shain-Carrasco/Metronome#readme",
+  "dependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "mongoose": "^5.8.5",
+    "mysql": "^2.17.1",
+    "mysql2": "^2.1.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "sequelize": "^5.21.3",
+    "uifx": "^2.0.7"
+  },
+  "devDependencies": {
+    "file-loader": "^5.0.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
